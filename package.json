@@ -1,0 +1,17 @@
+{
+  "name": "hibiscus",
+  "version": "0.0.1",
+  "description": "A small JavaScript-like language",
+  "main": "src/main.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Mock <brian@mockbrian.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parsimmon": "^0.7.0"
+  }
+}

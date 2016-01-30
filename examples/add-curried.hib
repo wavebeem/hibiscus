@@ -1,0 +1,10 @@
+let addCurried = function(a) {
+  return function(b) {
+    return add(a, b);
+  };
+};
+
+let increment = addCurried(1);
+
+print(increment(6));
+print(addCurried(2)(7));

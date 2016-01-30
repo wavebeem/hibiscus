@@ -1,0 +1,8 @@
+let items = [1, 2];
+append(items, 3);
+
+let pairs = {"a": "A", 0: "zero"};
+set(pairs, "0", "string-zero");
+
+print(items);
+print(pairs);

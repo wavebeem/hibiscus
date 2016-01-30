@@ -1,0 +1,9 @@
+let factorial = function(x) {
+  if less(x, 2) {
+    return 1;
+  } else {
+    return multiply(x, factorial(subtract(x, 1)));
+  };
+};
+
+print(factorial(4));

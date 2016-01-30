@@ -1,0 +1,12 @@
+let map = function(xs, f) {
+  print("starting map()");
+  let ys = [];
+  let i = 0;
+  while less(i, length(xs)) {
+    append(ys, f(get(xs, i)));
+    i = add(i, 1);
+  };
+  return ys;
+};
+let tenX = function(x) { return multiply(x, 10); };
+print(map([1, 2, 3], tenX));
